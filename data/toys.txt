@@ -1,0 +1,3 @@
+T001,Teddy Bear,Soft Toys,17.99,45,Brown Bear Co.
+T002,Remote car,Electronic,42.33,4,yutong
+T003,Project Hail Mary,Building blocks,99.99,7,Lego
