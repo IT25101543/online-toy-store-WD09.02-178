@@ -56,6 +56,7 @@
             display: flex;
             align-items: center;
             gap: 10px;
+            text-decoration: none;
         }
 
         .logo-dot {
@@ -70,6 +71,28 @@
         @keyframes pulse {
             0%, 100% { opacity: 1; transform: scale(1); }
             50% { opacity: 0.5; transform: scale(0.8); }
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .nav-link {
+            color: var(--muted);
+            font-size: 0.875rem;
+            text-decoration: none;
+            padding: 7px 14px;
+            border-radius: 10px;
+            border: 1px solid transparent;
+            transition: all 0.2s;
+        }
+
+        .nav-link:hover, .nav-link.active {
+            color: var(--text);
+            border-color: var(--border);
+            background: var(--surface);
         }
 
         .nav-actions {
@@ -409,6 +432,10 @@
     <div class="logo">
         <span class="logo-dot"></span>
         ToyVault
+    </div>
+    <div class="nav-links">
+        <a href="view-toys.jsp" class="nav-link active">Inventory</a>
+        <a href="view-users.jsp" class="nav-link">Users</a>
     </div>
     <div class="nav-actions">
         <a href="add-toy.jsp" class="btn btn-primary">
