@@ -1,0 +1,5 @@
+U001,John Doe,john@email.com,pass123,Galle
+U001,John Doe,john@email.com,pass123,Colombo
+U001,John Doe,john@email.com,pass123,Colombo
+U001,John Doe,john@email.com,pass123,Colombo
+U001,John Doe,john@email.com,pass123,Colombo
